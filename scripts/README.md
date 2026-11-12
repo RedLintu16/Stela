@@ -6,7 +6,8 @@ That apparently fixes it and let's the build continue/go through.
 
 
 # How to use
-Clone Stela like usual, and then just source scripts/arch.sh or wherever the arch.sh file is.
+Clone Stela like usual. Then just source scripts/arch.sh or wherever the arch.sh file is.
+
 
 # Building
 ```cargo xtask dist 2>&1 | tee ~/stela-build.log```
